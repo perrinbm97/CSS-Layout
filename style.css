@@ -37,11 +37,14 @@
 .box {
   background-color: grey;
   font-size: 50px;
-  height: 100px;
-  width: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.box__small{
+  height: 100px;
+  width: 100px;
 }
 
 .box__wrap {
@@ -109,7 +112,6 @@
 
 .box__large {
   width: 49%;
-  height: 100%;
 }
 
 /* LAYOUT 4 */
@@ -127,4 +129,13 @@
 .rw4 {
   display: flex;
   justify-content: space-around;
+}
+
+/* SIZING */
+
+@media (max-width: 950px){
+    .box__small{
+        height: 50px;
+        width: 50px;
+    }
 }
