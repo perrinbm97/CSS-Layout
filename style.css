@@ -42,7 +42,7 @@
   justify-content: center;
 }
 
-.box__small{
+.box__small {
   height: 100px;
   width: 100px;
 }
@@ -133,9 +133,9 @@
 
 /* SIZING */
 
-@media (max-width: 950px){
-    .box__small{
-        height: 50px;
-        width: 50px;
-    }
+@media (max-width: 950px) {
+  .box__small {
+    height: 50px;
+    width: 50px;
+  }
 }
