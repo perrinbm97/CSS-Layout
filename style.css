@@ -92,8 +92,7 @@
 
 .gw3 {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .pw3 {
@@ -118,8 +117,7 @@
 
 .pw4 {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .bw4 {
